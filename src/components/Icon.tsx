@@ -1,15 +1,9 @@
 import React from 'react';
 import { icons } from 'lucide-react';
+import { IconProps } from '../constants/types';
 
 
-export type IconName = keyof typeof icons;
 
-interface IconProps {
-    name: IconName;
-    size?: number;
-    color?: string;
-    className?: string;
-}
 
 const Icon: React.FC<IconProps> = ({ name, size = 24, color = 'currentColor', className = '' }) => {
 

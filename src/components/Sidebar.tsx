@@ -1,35 +1,12 @@
 import { useState } from "react"
-import Icon, { IconName } from "./Icon";
+import Icon from "./Icon";
+import { sideBarIcons } from "../constants";
 
-interface SideBarIconInterface {
-    id: number;
-    name: IconName;
-}
+
 
 const Sidebar = () => {
     const [active, setActive] = useState(1);
-    const sideBarIcons: SideBarIconInterface[] = [
-        {
-            id: 1,
-            name: "House"
-        },
-        {
-            id: 2,
-            name: "FileChartColumn"
-        },
-        {
-            id: 3,
-            name: "ClipboardCheck"
-        },
-        {
-            id: 4,
-            name: "Wallet"
-        },
-        {
-            id: 5,
-            name: "ShoppingBag"
-        }
-    ];
+
 
     return (
         <section className="sticky left-0 top-0 flex h-screen bg-secondary flex-col justify-between items-center  pt-20 pb-8 text-white w-20">
