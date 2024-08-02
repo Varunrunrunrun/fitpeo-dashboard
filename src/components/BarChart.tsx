@@ -32,11 +32,18 @@ const options = {
     },
     scales: {
         x: {
+            grid: {
+                lineWidth: 0,
+            },
             ticks: {
                 stepSize: 4,
             },
         },
         y: {
+            grid: {
+                color: 'rgba(255, 255, 255, 0.5)',
+                lineWidth: 0.5,
+            },
             beginAtZero: false,
             ticks: {
                 stepSize: 5000,
@@ -50,7 +57,7 @@ const BarChart = () => {
         <div className='w-full'>
             <div className='mb-4 flex w-full justify-between items-center gap-4'>
                 <h1 className='text-3xl font-semibold '>Activity</h1>
-                <div className='bg-slate-400 bg-opacity-40 rounded-2xl py-2 px-4 flex justify-center gap-1 items-center cursor-pointer'>
+                <div className='bg-slate-400 bg-opacity-40 rounded-2xl py-1 px-6 flex justify-center gap-1 items-center cursor-pointer'>
                     <p className='text-xs'>Weekly</p>
                     <Icon name='ChevronDown' className='w-4' />
                 </div>
