@@ -18,3 +18,36 @@ export interface CardProps {
     children: React.ReactNode;
     className?: string;
 }
+
+export interface dashboardKPIDataInterface {
+    title: string;
+    value: string;
+    icon: IconName
+    className: string;
+    change: string;
+    increase: boolean;
+}
+
+export interface CircularProgressProps {
+    progress: number;
+}
+
+export interface DoughnutChartProps {
+    data: {
+        labels?: string[];
+        datasets: {
+            data: number[];
+            backgroundColor: string[];
+            borderColor?: string[];
+            borderWidth?: number;
+        }[];
+    };
+    options?: object;
+    className?: string;
+}
+
+export interface DashBoardOptionInterface {
+    title: string;
+    icon: IconName;
+    className: string;
+}
