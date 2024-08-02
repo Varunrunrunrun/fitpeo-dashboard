@@ -6,13 +6,12 @@ The Fitpeo Assignment Dashboard is a food page dashboard application designed to
 
 ## Features
 
-- **Responsive Design:** Fully responsive UI using Tailwind CSS.
 - **Interactive Charts:** Data visualizations with Chart.js.
 - **Custom Icons:** Utilizes Lucide React for a modern look.
 
 ## Snapshot
 
-![Dashboard Snapshot](/snapshot.png)
+![Dashboard Snapshot](public/snapshot.png)
 
 ## Packages Used
 
@@ -29,10 +28,10 @@ To set up the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fitpeo-assignment-dashboard.git
+git clone https://github.com/Varunrunrunrun/fitpeo-dashboard.git
 
 # Navigate into the project directory
-cd fitpeo-assignment-dashboard
+cd fitpeo-dashboard
 
 # Install dependencies
 npm install
