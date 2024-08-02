@@ -51,3 +51,13 @@ export interface DashBoardOptionInterface {
     icon: IconName;
     className: string;
 }
+
+export interface customerFeedbackInterface {
+    id: number;
+    name: string;
+    review: string;
+    rating: number;
+}
+export interface StarRatingProps {
+    rating: number;
+}

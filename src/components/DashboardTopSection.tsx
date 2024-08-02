@@ -1,36 +1,9 @@
-import { dashboardKPIData } from "../constants"
+import { dashboardKPIData, doughnutChartData, doughnutChartOptions } from "../constants"
 import Card from "./Card"
 import DoughnutChart from "./CircularProgress"
 import Icon from "./Icon"
 
 const DashboardTopSection = () => {
-    const data = {
-        labels: [],
-        datasets: [
-            {
-                data: [70, 30],
-                backgroundColor: [
-                    '#60a5fa', // First color
-                    ' #f1f5f9 ', // Second color
-                ],
-                borderWidth: 0
-            },
-        ],
-    };
-
-    const options = {
-        responsive: true,
-        maintainAspectRatio: false,
-        cutout: '70%',
-        plugins: {
-            legend: {
-                display: false,
-            },
-            tooltip: {
-                enabled: false,
-            },
-        },
-    };
     return (
         <div className="w-full flex lg:flex-row flex-col gap-8 justify-between">
             <div className="h-full w-full lg:w-[60%] grid lg:grid-cols-4  grid-cols-2 gap-6">
@@ -62,7 +35,7 @@ const DashboardTopSection = () => {
                 </section>
                 <section className="flex flex-col justify-center items-center">
                     <div className="h-32 w-32 relative">
-                        <DoughnutChart data={data} options={options} />
+                        <DoughnutChart data={doughnutChartData} options={doughnutChartOptions} />
                         <div className="absolute w-full h-full inset-0 p-8 flex flex-col justify-center items-center gap-1">
                             <h2 className="text-2xl font-semibold">70%</h2>
                             <p className="text-xs text-center">Goal Completed</p>
