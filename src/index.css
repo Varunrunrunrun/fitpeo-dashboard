@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  width: 100% !important;
+}
+body {
+  width: 100% !important;
+  background-color: #1f2029;
+}
 * {
   margin: 0;
   padding: 0;

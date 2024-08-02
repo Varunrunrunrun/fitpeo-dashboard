@@ -4,8 +4,8 @@ import StarRating from "./StarRating"
 
 const Feedback = () => {
     return (
-        <div className="flex flex-col p-4 justify-start gap-6 items-start">
-            <h1 className='text-3xl font-semibold '>Customer's Feedback</h1>
+        <div className="flex flex-col justify-start gap-6 items-start">
+            <h1 className='sm:text-3xl text-xl font-semibold '>Customer's Feedback</h1>
             <div className="w-full flex flex-col justify-start items-start gap-4">
                 {
                     customerFeedbackData.map((data) => (

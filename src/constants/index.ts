@@ -116,18 +116,18 @@ export const recentOrders = [
 ];
 
 export const barChartData = {
-    labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"],
+    labels: ["5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27",],
     datasets: [
         {
             label: 'Activity',
             data: [
                 11667, 13333, 17667, 3000, 5667, 11000, 18333, 9667,
                 7000, 15000, 5000, 7667, 13000, 14333, 8333, 5000,
-                7000, 16333, 3667, 10333, 12333, 17000, 6333, 15667,
-                14332, 16000, 12323, 10001, 14300, 7890
+                7000, 16333, 3667, 10333, 12333, 17000, 6333
             ],
             backgroundColor: 'rgba(100, 149, 237)',
-            borderRadius: Number.MAX_VALUE
+            borderRadius: Number.MAX_VALUE,
+            borderSkipped: false,
         },
     ],
 };
@@ -154,9 +154,9 @@ export const barChartOptions = {
                 color: 'rgba(255, 255, 255, 0.5)',
                 lineWidth: 0.5,
             },
-            beginAtZero: false,
+            beginAtZero: true,
             ticks: {
-                stepSize: 5000,
+                stepSize: 3000,
             },
         },
     },
