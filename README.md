@@ -6,7 +6,6 @@ The Fitpeo Assignment Dashboard is a food page dashboard application designed to
 
 ## Features
 
-- **Responsive Design:** Fully responsive UI using Tailwind CSS.
 - **Interactive Charts:** Data visualizations with Chart.js.
 - **Custom Icons:** Utilizes Lucide React for a modern look.
 
