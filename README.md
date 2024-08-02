@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
 git clone https://github.com/Varunrunrunrun/fitpeo-dashboard.git
 
 # Navigate into the project directory
-cd fitpeo-assignment-dashboard
+cd fitpeo-dashboard
 
 # Install dependencies
 npm install
