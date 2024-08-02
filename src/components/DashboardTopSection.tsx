@@ -41,7 +41,7 @@ const DashboardTopSection = () => {
                             <p className="text-xs text-center">Goal Completed</p>
                         </div>
                     </div>
-                    <div className="text-xs mt-2">*The values here have been rounded off.</div>
+                    <div className="text-xs mt-2 text-center">*The values here have been rounded off.</div>
                 </section>
             </Card>
         </div>
