@@ -12,7 +12,7 @@ The Fitpeo Assignment Dashboard is a food page dashboard application designed to
 
 ## Snapshot
 
-![Dashboard Snapshot](/snapshot.png)
+![Dashboard Snapshot](public/snapshot.png)
 
 ## Packages Used
 
