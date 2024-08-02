@@ -9,7 +9,7 @@ const Sidebar = () => {
 
 
     return (
-        <section className="sticky left-0 top-0 flex min-h-screen bg-secondary flex-col justify-between items-center  pt-20 pb-8 text-white w-20">
+        <section className="sticky left-0 top-0 flex h-screen bg-secondary flex-col justify-between items-center  pt-20 pb-8 text-white w-20">
             <section className="w-full flex flex-col gap-6">
                 {
                     sideBarIcons.map(icon => (
